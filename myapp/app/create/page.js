@@ -80,6 +80,7 @@ const handleRemovePhoto = () => {
   setPreviewPhoto(null);
 };
 
+
   return (
     <section>
       <h2 className="text-center mt-10 text-5xl">Add Memory</h2>

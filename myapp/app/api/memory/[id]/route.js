@@ -7,7 +7,7 @@ export async function DELETE(req, ctx) {
     const id = ctx.params.id
 
     try {
-        const memory = await Memory.findById(id).populate('authorId')
+        const memory = await Memory.findById(id)
    
         await Memory.findByIdAndDelete(id)
 
