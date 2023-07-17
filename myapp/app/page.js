@@ -12,7 +12,7 @@ export default async function Home() {
   const memories = await fetchMemories()
 
   return (
-    <section className='w-full mt-[40px] mb-[40px] shadow-lg rounded-md py-6 md:px-10 px-4 max-w-screen-md m-auto bg-info'>
+    <section className='w-full mt-[40px] mb-[40px] shadow-lg rounded-md py-6 md:px-10 px-4 max-w-screen-md m-auto'>
       <div className='grid grid-rows-4 grid-flow-col gap-4'>
      <div>
       {memories?.length > 0 
